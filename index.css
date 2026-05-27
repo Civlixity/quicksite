@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* This pushes the container to the middle */
+    min-height: 100vh;
+    background: linear-gradient(
+        to right,
+        hsl(0, 0%, 10%) 0%,
+        white 50%,
+        hsl(0, 0%, 10%) 100%
+    );
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 1.4rem;
+}
+
+.container {
+    background-color: white;
+    padding: 2.5%;
+    width: 70vw;
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ9N-uNzS6Cy3ZB8iyjd6epPFFE8b6OzNInjUKVXr9ZD8t_poyq4_fz4yBhKfaW1VysQHZZPYce7ikmIeubfinE-uI&s=19');
+    background-repeat: no-repeat;
+    background-position: center 2.5vw;
+    background-size: 100%;
+}
+
+.top-text {
+    margin-left: -5%;
+    margin-right: -5%;
+    padding: 2.5%;
+
+    color: white;
+    background-color: hsl(239, 98%, 17%);
+}
+
+.logo {
+    position: absolute;
+    top: 3.75vw;
+    left: 60vw;
+
+    width: auto;
+    height: 10vw;
+}
+
+.vaká-com {
+    top: 0px;
+    left: 10px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: hsl(39, 77%, 54%)
+}
+
+
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 7vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    padding: 1vmin;
+    gap: 10px;
+    z-index: 50;
+
+    border: 0.2vw solid hsl(239, 98%, 17%);
+    border-radius: 30vw;
+
+    background-color: hsl(39, 100%, 63%);
+
+}
+
+.main-menu input {
+    display: flex;
+    padding: 0.1vw;
+    font-size: 1.5rem;
+    height: 3rem;  
+
+    min-width: 25vmin;
+    justify-content: center;
+    align-items: center;
+
+    border: 0.2vw solid hsl(39, 67%, 48%);
+}
+
+.why {
+    display: block;
+    font-weight: bold;
+}
+
+.why-vaká-com {
+    margin-top: 7vw;
+    margin-left: -3.5%;
+    margin-right: -3.5%;
+    padding: 2.5%;
+    z-index: 2;
+
+    background-color: hsl(98, 33%, 34%);
+}
+
+.why {
+    color: hsl(39, 77%, 54%);
+}
+
+.why-text {
+    display: flex;
+
+    color: white;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 15vw;
+
+    margin-top: 4vw;
+    margin-left: -2.5%;
+
+    padding: 1vmin;
+    z-index: 50;
+
+    border: 0.2vw solid hsl(239, 98%, 17%);
+    border-radius: 0.5vw;
+
+    background-color: hsl(39, 100%, 63%);
+
+    gap: 2.5vmin;
+}
+
+.side-menu-h1 {
+    display: flex;
+    flex-direction: column;
+
+    color: hsl(239, 98%, 17%);
+    font-size: 5rem;
+
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu input {
+    font-size: 1.7rem;
+    height: 2rem;  
+
+    border: 0.2vw solid hsl(39, 67%, 48%);
+
+}
+
+.cubes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+
+    margin-top: -19vw;
+    margin-left: 17.5vw;
+
+    gap: 1.5vw;
+}
+
+.cube {
+    
+    background-color: hsl(39, 100%, 63%);
+    border: 0.2vw solid hsl(239, 98%, 17%);
+    text-align: center;
+    border-radius: 8px;
+
+    width: 15vw;
+    height: 15vw;
+
+    box-sizing: border-box;       /* Keeps the border inside the 15vw width */
+    background-clip: padding-box; /* Stops the image from drawing under the border */
+    background-size: cover;       /* Ensures the image fills the cube */
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cube p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.822);
+
+    width: 100%;
+    height: 100%;
+    margin:0;
+
+    font-weight: bold;
+}
+
+.cube-picture {
+    width: auto;
+    height: 8vw;
+}
+
+.cube-budapest {
+    background-image: url('https://img.nh-hotels.net/zZj6g/DX39o1/original/Budapest.jpg')
+}
+.cube-london {
+    background-image: url('https://www.visitlondon.com/-/media/images/london/visit/things-to-do/nightlife/tower-bridge-at-night1920x1080.png?mw=800&rev=743f319d95bf47638fe287a5322c115c&hash=4EE2C2E9D2540601359FE846DC4B55C0')
+}
+.cube-paris {
+    background-image: url('https://www.grayline.com/wp-content/uploads/2025/01/shutterstock_667548661-scaled.jpg')
+}
+.cube-vienna {
+    background-image: url('https://thetourguy.com/wp-content/uploads/2023/01/TTTD-Vienna-feature-1440-675.jpg')
+}
+.cube-sarajevo {
+    background-image: url('https://cdn.getyourguide.com/img/location/5d7f464c537b1.jpeg/68.jpg');
+}
+.cube-warsaw {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIlBfm9Vp32nwwnfSJAqqTPLZ5Ka7yyo4xuQ&s');
+}
+.cube-pécs {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7f/P%C3%A9cs%2C_Sz%C3%A9chenyi_t%C3%A9r_2022_02.jpg');
+}
+.cube-prague {
+    background-image : url('https://www.pragueexperience.com/images/photos/xxxlarge/prague-christmas-markets.jpg')
+}
+.cube-bratislava {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bratislava_-_Burg_%28b%29.JPG/1280px-Bratislava_-_Burg_%28b%29.JPG');
+}
+
+.hidden {
+    display: none !important;
+}

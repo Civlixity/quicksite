@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Vaká.com | Hivatalos Oldal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-text">
+            <p class="vaká-com">VAKÁ.COM</p>
+            <h1 class="top-middle">Hol szeretnél vakációzni?</h1>
+            <h3 class="top-bottom">Keress olcsó vakációkat!</h3>
+            <img class="logo"src="https://media.istockphoto.com/id/1420436596/hu/vektor/ny%C3%A1ri-vak%C3%A1ci%C3%B3-log%C3%B3-koncepci%C3%B3ja.jpg?s=612x612&w=0&k=20&c=a_WENx9mhbbGCgk0WyG3eHGiysSe1hbJwB4s1e3agwA=" alt="logó">
+        </div>
+        
+        <div class="menus">
+            <div class="main-menu">
+                <input list="helyek" id="hely" placeholder="Úticél">
+                <datalist id="helyek">
+                    <option value="Budapest, Magyarország">
+                    <option value="London, Anglia">
+                    <option value="Párizs, Franciaország">
+                    <option value="Bécs, Ausztria">
+                    <option value="Szarajevo, Bosznia-Hercegovina">
+                    <option value="Varsó, Lengyelország">
+                    <option value="Pécs, Magyarország">
+                    <option value="Prága, Csehország">
+                    <option value="Pozsony, Szlovákia">
+                </datalist>
+
+                <input list="hanyan" id="hányan" placeholder="Fő">
+                <datalist id="hanyan">
+                    <option value="1">
+                    <option value="2">  
+                    <option value="3">
+                    <option value="4">
+                </datalist>
+
+                <input type="date" id="mikor-megy" min="2027-01-01" max="2027-12-31" placeholder="Mikor?">
+                <datalist id="date">
+                    <option value="2027-01-01">
+                    <option value="2027-02-04">
+                    <option value="2027-07-02">
+                    <option value="2027-09-21">
+                </datalist>
+            </div>
+        </div>
+
+        <div class="why-vaká-com">
+            <h2 class="why">MIÉRT VAKÁ.COM?</h2>
+                <div class="why-text">
+                <p class="why-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur deserunt, vero quaerat eum reprehenderit aperiam reiciendis rem porro dolores dolorem quod eligendi enim amet earum esse unde accusamus optio quam.</p>
+                <p class="why-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore facilis consectetur odio distinctio alias soluta sit excepturi libero delectus tenetur aperiam, dignissimos nisi qui. Fugit minima veritatis officiis cupiditate nobis.</p>
+                <p class="why-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci nam doloribus debitis, eligendi deserunt natus placeat labore quos hic recusandae repellat eum aut sunt possimus culpa quod! Minima, illo. Nisi?</p>
+            </div>
+        </div>
+
+        <div class="menus">
+            <div class="side-menu">
+                <h1 class="side-menu-h1">OLDAL MENÜ</h1>
+                <input list="helyek" id="hely-side" placeholder="Úticél">
+                <datalist id="helyek">
+                    <option value="Budapest, Magyarország">
+                    <option value="London, Anglia">
+                    <option value="Párizs, Franciaország">
+                    <option value="Bécs, Ausztria">
+                    <option value="Szarajevo, Bosznia-Hercegovina">
+                    <option value="Varsó, Lengyelország">
+                    <option value="Pécs, Magyarország">
+                    <option value="Prága, Csehország">
+                    <option value="Pozsony, Szlovákia">
+                </datalist>
+
+                <input list="hanyan" id="hányan-side" placeholder="Fő">
+                <datalist id="hanyan">
+                    <option value="1">
+                    <option value="2">  
+                    <option value="3">
+                    <option value="4">
+                </datalist>
+
+                <input type="date" id="mikor-megy-side" min="2027-01-01" max="2027-12-31" placeholder="Mikor">
+                <datalist id="date">
+                    <option value="2027-01-01">
+                    <option value="2027-02-04">
+                    <option value="2027-07-02">
+                    <option value="2027-09-21">
+                </datalist>
+            </div>
+        </div>
+
+        <div class="cubes">
+            <div class="cube cube-budapest" data-date="2027-01-01" data-number="1" class="cube">
+                <p>Budapest, Magyarország</p>
+            </div>
+            <div class="cube cube-london" data-date="2027-09-21" data-number="4" class="cube">
+                <p>London, Anglia</p>
+            </div>
+            <div class="cube cube-paris" data-date="2027-07-02" data-number="2" class="cube">
+                <p>Párizs, Franciaország</p>
+            </div>
+            <div class="cube cube-vienna" data-date="2027-09-21" data-number="3" class="cube">
+                <p>Bécs, Ausztria</p>
+            </div>
+            <div class="cube cube-sarajevo" data-date="2027-01-01" data-number="1" class="cube">
+                <p>Szarajevo, Bosznia-Hercegovina</p>
+            </div>
+            <div class="cube cube-warsaw" data-date="2027-02-04" data-number="2" class="cube">
+                <p>Varsó, Lengyelország</p>
+            </div>
+            <div class="cube cube-pécs" data-date="2027-07-02" data-number="1" class="cube">
+                <p>Pécs, Magyarország</p>
+            </div>
+            <div class="cube cube-prague" data-date="2027-01-01" data-number="3" class="cube">
+                <p>Prága, Csehország</p>
+            </div>
+            <div class="cube cube-bratislava" data-date="2027-02-04" data-number="4" class="cube">
+                <p>Pozsony, Szlovákia</p>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+    const mainHely = document.getElementById("hely");
+    const sideHely = document.getElementById("hely-side");
+    const mikorInput = document.getElementById("mikor-megy");
+    const mikorInputSide = document.getElementById("mikor-megy-side");
+    const cubes = document.querySelectorAll(".cube");
+
+    // This function does the heavy lifting for BOTH inputs
+    function filterCubes(inputValue) {
+    let currentCity = inputValue.toLowerCase().trim();
+    let foundDate = "";
+
+    cubes.forEach(function(oneCube) {
+        let cityText = oneCube.querySelector("p").textContent.toLowerCase();
+
+        // If search is empty OR it matches, show it. Otherwise, hide.
+        if (currentCity === "" || cityText.includes(currentCity)) {
+            oneCube.classList.remove("hidden");
+            
+            if (cityText === currentCity) {
+                foundDate = oneCube.getAttribute("data-date");
+            }
+        } else {
+            oneCube.classList.add("hidden");
+        }
+    });
+
+    // Update both date inputs
+    if (foundDate !== "") {
+        mikorInput.value = foundDate;
+        mikorInputSide.value = foundDate;
+    } else {
+        mikorInput.value = "";
+        mikorInputSide.value = "";
+    }
+    }
+
+    // Listen to the Main Menu
+    mainHely.addEventListener("input", function() {
+        filterCubes(mainHely.value);
+    });
+
+    // Listen to the Side Menu
+    sideHely.addEventListener("input", function() {
+        filterCubes(sideHely.value);
+    });
+
+    // Fix Backspace: Simply clear and show all
+    [mainHely, sideHely].forEach(input => {
+        input.addEventListener("keydown", function(event) {
+            if (event.key === "Backspace" && input.value.length === 1) {
+                // If deleting the last character, show everything
+                filterCubes("");
+            }
+        });
+});
+</script>
+</body>
+</html>
